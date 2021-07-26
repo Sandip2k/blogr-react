@@ -1,0 +1,47 @@
+.designedWrapper {
+    height: 120vh;
+    background: url("./../../images/illustration-editor-desktop.svg");
+    background-size: 62.5vw;
+    position: relative;
+    z-index: 2;
+    background-position: calc(0.875 * 62.5vw) 0rem;
+    background-repeat: no-repeat;
+    top: calc((1 / 25) * 100vw);
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    font-family: "Overpass";
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+    top: calc(0.1 * 100vw);
+}
+
+.circles {
+    position: absolute;
+    top: -7rem;
+    left: 55.5%;
+    max-width: 100%;
+    height: auto;
+}
+
+.textWrapper {
+    position: relative;
+    font-family: "Ubuntu";
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+    top: calc(0.1275 * 100vw);
+    margin-left: calc(0.1 * 100vw);
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+    p {
+        line-height: 1.5rem;
+        font-size: calc((1 / 100) * 100vw);
+        font-weight: lighter;
+        width: 36%;
+        color: gray;
+        margin-bottom: 5rem;
+    }
+}

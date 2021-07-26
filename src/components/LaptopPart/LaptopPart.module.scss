@@ -1,0 +1,29 @@
+.wrapper {
+    height: 100vh;
+    background: url("./../../images/illustration-laptop-desktop.svg");
+    background-size: 62.5vw;
+    position: relative;
+    background-position: calc(-0.29 * 62.5vw) 0rem;
+    background-repeat: no-repeat;
+    top: calc((1 / 9) * 100vw);
+}
+
+.textWrapper {
+    position: relative;
+    font-family: "Ubuntu";
+    color: hsl(208, 49%, 24%);
+    font-weight: bold;
+    top: calc(0.1275 * 100vw);
+    margin-left: calc(0.475 * 100vw);
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+    p {
+        line-height: 1.5rem;
+        font-size: calc((1 / 100) * 100vw);
+        font-weight: lighter;
+        width: 60%;
+        color: gray;
+        margin-bottom: 5rem;
+    }
+}

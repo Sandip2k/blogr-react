@@ -1,0 +1,84 @@
+.wrapper {
+    height: 80vh;
+    background: url("./../../images/bg-pattern-intro.svg"),
+        linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-bottom-left-radius: 8rem;
+    background-size: 195rem, cover;
+    background-repeat: no-repeat;
+    background-position-y: -82rem, 0;
+    background-position-x: -24rem, 0;
+    position: relative;
+    font-family: "Overpass";
+    // margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.centerText {
+    position: absolute;
+    font-size: 3.75rem;
+    z-index: 3;
+    font-weight: bolder;
+    align-self: center;
+    color: white;
+    margin-top: 13.5rem;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tagline {
+    position: absolute;
+    top: 18rem;
+    z-index: 3;
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.getStarted {
+    top: 23rem;
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    z-index: 3;
+    color: white;
+}
+
+.startForFree {
+    background: white;
+    padding: 12px 20px 8px 20px;
+    border-radius: 20px;
+    color: hsl(353, 100%, 62%);
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Overpass";
+    font-size: 12px;
+    cursor: pointer;
+    &:hover {
+        background-color: transparentize($color: #fff, $amount: 0.75);
+        color: white;
+    }
+}
+
+.learnMore {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 24px 8px 24px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Overpass";
+    font-size: 12px;
+    cursor: pointer;
+    &:hover {
+        background-color: white;
+        color: hsl(353, 100%, 62%);
+    }
+}

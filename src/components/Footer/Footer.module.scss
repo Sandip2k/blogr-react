@@ -1,0 +1,35 @@
+.wrapper {
+    position: relative;
+    top: calc(0.175 * 100vw);
+    height: 35vh;
+    background-color: hsl(240, 10%, 16%);
+    display: flex;
+    border-top-right-radius: 8rem;
+    justify-content: space-evenly;
+    padding-top: calc(0.25 * 10vw);
+    align-items: baseline;
+    color: white;
+    font-size: 0.8rem;
+    font-family: "Ubuntu";
+
+    header {
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+
+    p {
+        color: hsl(240, 2%, 79%);
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.brand {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bolder;
+    top: 1rem;
+    margin-left: -5rem;
+}

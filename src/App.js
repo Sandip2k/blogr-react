@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import DesignedFuture from "./components/DesignedFuture/DesignedFuture";
+import BlogrFrontPage from "./components/BlogrFrontPage/BlogrFrontPage";
+import SOTA from "./components/SOTA/SOTA";
+import LaptopPart from "./components/LaptopPart/LaptopPart";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <BlogrFrontPage />
+            <DesignedFuture />
+            <SOTA />
+            <LaptopPart />
+            <Footer />
+        </>
+    );
 }
 
 export default App;
