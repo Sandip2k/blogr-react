@@ -1,5 +1,5 @@
 .designedWrapper {
-    height: 120vh;
+    height: 80vw;
     background: url("./../../images/illustration-editor-desktop.svg");
     background-size: 62.5vw;
     position: relative;
@@ -15,7 +15,7 @@
     font-family: "Overpass";
     color: hsl(208, 49%, 24%);
     font-weight: bold;
-    top: calc(0.1 * 100vw);
+    top: calc(0.05 * 100vw);
 }
 
 .circles {

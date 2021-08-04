@@ -1,5 +1,5 @@
 .wrapper {
-    height: 100vh;
+    height: 55vw;
     background: url("./../../images/illustration-laptop-desktop.svg");
     background-size: 62.5vw;
     position: relative;
@@ -10,7 +10,7 @@
 
 .textWrapper {
     position: relative;
-    font-family: "Ubuntu";
+    font-family: "Overpass";
     color: hsl(208, 49%, 24%);
     font-weight: bold;
     top: calc(0.1275 * 100vw);
@@ -19,8 +19,8 @@
         margin-bottom: 1.5rem;
     }
     p {
-        line-height: 1.5rem;
-        font-size: calc((1 / 100) * 100vw);
+        line-height: 1.5vw;
+        font-size: 1vw;
         font-weight: lighter;
         width: 60%;
         color: gray;

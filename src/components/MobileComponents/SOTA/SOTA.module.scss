@@ -1,0 +1,35 @@
+.wrapper {
+    margin-top: 22.5vh;
+    height: calc(20vw + 70vh);
+    background: url("./../../../images/bg-pattern-circles.svg"),
+        linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    background-size: cover, cover;
+    background-repeat: no-repeat;
+    background-position-x: -8rem, 0;
+    background-position-y: -16rem, 0;
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.image {
+    position: relative;
+    top: -50vw;
+    width: 100%;
+}
+
+.textWrapper {
+    position: relative;
+    top: -20vh;
+    text-align: center;
+    color: white;
+    font-family: "Overpass";
+    p {
+        margin-left: 2rem;
+        line-height: 1.5rem;
+        margin-right: 2rem;
+        color: lightgray;
+    }
+}

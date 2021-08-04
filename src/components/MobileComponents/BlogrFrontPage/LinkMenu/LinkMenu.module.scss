@@ -1,0 +1,43 @@
+.wrapper {
+    font-family: "Overpass";
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.linkMenuChevron {
+    color: hsl(356, 100%, 66%);
+    font-size: 0.6rem;
+    border: none;
+    background: transparent;
+}
+
+.linkOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 0.3rem;
+}
+
+.dropLinks {
+    height: 20vh;
+    width: 60vw;
+    border-radius: 2px;
+    background: hsl(0, 0%, 94%);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    p {
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        font-size: 0.9rem;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    color: hsl(207, 13%, 34%);
+}

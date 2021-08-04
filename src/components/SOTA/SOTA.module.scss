@@ -7,8 +7,8 @@
     background-size: calc(0.65 * 100vw), cover;
     background-repeat: no-repeat;
     // clip-path: inset(9rem 0px 15rem 0rem);
-    background-position-y: -30rem, 0rem;
-    background-position-x: -12.75rem, 0rem;
+    background-position-y: -32vw, 0rem;
+    background-position-x: -14vw, 0rem;
     border-bottom-left-radius: 8rem;
     border-top-right-radius: 8rem;
 }
@@ -26,10 +26,13 @@
     color: white;
     top: calc(0.06 * 100vw);
     left: calc(0.475 * 100vw);
+    h1 {
+        font-size: calc(0.1 * 24vw);
+    }
     p {
-        width: 30rem;
+        width: 40vw;
         color: hsl(240, 2%, 79%);
-        font-size: 0.95rem;
-        line-height: 1.75rem;
+        font-size: calc(0.1 * 10vw);
+        line-height: calc(0.2 * 10vw);
     }
 }

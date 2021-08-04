@@ -1,0 +1,139 @@
+.wrapper {
+    height: 80vh;
+    background: url("./../../../images/bg-pattern-intro.svg"),
+        linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-bottom-left-radius: 8rem;
+    background-size: calc(100vw + 55rem), cover;
+    background-repeat: no-repeat;
+    background-position-y: calc(-0.25 * 100vh), 0;
+    background-position-x: calc(-0.825 * 100vw), 0;
+    position: relative;
+    font-family: "Overpass";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    button {
+        border: none;
+        background: transparent;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.hero {
+    color: white;
+    font-family: "Overpass";
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 7.5vh;
+    h1 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-weight: lighter;
+        font-size: 1.125rem;
+        opacity: 0.8;
+    }
+}
+
+.head {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+    font-family: "Ubuntu";
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.getStarted {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    position: relative;
+    justify-content: center;
+    bottom: 22.5vh;
+}
+
+.startForFree {
+    background: white;
+    padding: 12px 20px 8px 20px;
+    border-radius: 20px;
+    color: hsl(353, 100%, 62%);
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Overpass";
+    font-size: 15px;
+    cursor: pointer;
+    &:hover {
+        background-color: transparentize($color: #fff, $amount: 0.75);
+        color: white;
+    }
+}
+
+.learnMore {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 24px 8px 24px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Overpass";
+    font-size: 15px;
+    cursor: pointer;
+    &:hover {
+        background-color: white;
+        color: hsl(353, 100%, 62%);
+    }
+}
+
+.menu {
+    position: relative;
+    color: hsl(237, 17%, 21%);
+    font-family: "Overpass";
+    font-weight: bold;
+    z-index: 4;
+    margin: auto;
+    top: -70vh;
+    height: 36.5rem;
+    width: 82vw;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 30px 1px rgba(0, 0, 0, 0.226);
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    p {
+        cursor: pointer;
+    }
+}
+
+.signUp {
+    background: linear-gradient(
+        to right,
+        hsl(13, 100%, 72%),
+        hsl(353, 100%, 62%)
+    );
+    padding: 12px 35px 10px 35px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+}
